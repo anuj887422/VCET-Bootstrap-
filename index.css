@@ -1,0 +1,13 @@
+index,body{
+  margin: 0;
+  position: relative;
+  min-height: 100%;
+  top:0px;
+}
+footer{
+  background: red;
+}
+.carousal-item{
+  width: 100%;
+  height: 80vh;
+}
