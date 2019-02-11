@@ -11,7 +11,19 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style type="text/css">
-
+.navbar-nav > li > a {
+  line-height: 55px;
+}
+.blue-color{
+  background-color: #0085c3;
+}
+.nav.navbar-nav li a {
+  color: white;
+}
+.navbar-expand-xl .navbar-nav .dropdown-menu{
+  background-color: #0085c3;
+  
+}
 .dropdown-menu > li.kopie > a {
 padding-left:5px;
 }
@@ -136,285 +148,398 @@ text-align: center;
 </head> 
 
 <body>
-    <!-- <br>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-12">
-                    <a href="../index.php"><img src="https://vcet.edu.in/assets/images/banner1.jpg" class="img-responsive" width="100%"></a>	
-                </div>
-            </div>
-        </div>
-    <br>
- -->
+    <div class="container">
 
-
-
-        <div class="row">
-            <div class="col-xl-12">
-              <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-        
-        <div class="navbar-brand d-block d-xl-none">VCET</div>
-
-        <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navHeaderCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        <div class="collapse navbar-collapse" id="navHeaderCollapse">
-            
-            <ul class="nav navbar-nav text-center m-auto">
-
-                <li class="nav-item">
-                    <a href="../index.html" class="nav-link">HOME</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ABOUT</a>
-                    <ul class="dropdown-menu">
-
-<li><a href="../about/vision.html" class="dropdown-item">Vision Mission </a></li>
-                        <li><a href="../about/principal.html" class="dropdown-item">Principal's Desk</a></li>
-
-
-                        <li><a href=../about/govern.html" class="dropdown-item">Governing Council</a></li>
-                    <li><a href="../about/img/org.png" class="dropdown-item">Organizational Structure</a></li>
-                        <li><a href="../about/admin.html" class="dropdown-item">Administration &amp; other staff</a></li>
-<li><a href="../about/img/codee.pdf" class="dropdown-item">Code of Ethics </a></li>
-<li><a href="../about/img/codec.pdf" class="dropdown-item">Code of Conduct </a></li>
-<li><a href="../about/img/core.pdf" class="dropdown-item">Core Values</a></li>
-<li><a href="../about/strategy.html" class="dropdown-item" target="test1">Strategic Plan</a></li>
-
-
-</ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ADMISSION</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="../admission/bachelor.html" class="dropdown-item" target="test1">Bachelor of Engineering</a></li>
-                        <li><a href="../admission/admission.pdf" class="dropdown-item" target="test1">Admission schedule</a></li>
-                        <li><a href="../admission/doc.pdf"  class="dropdown-item" target="test1">FE Fee Structure</a></li>
-                        <li><a href="../admission/di.pdf" class="dropdown-item" target="test1">Direct SE Fee Structure</a></li>
-
-<!-- <li><a href="#" class="dropdown-item" target="test1">Online Fee Portal</a></li> -->
-
-
-                        <li><a href="../admission/ru.pdf" class="dropdown-item" target="test1">Rules And Regulation</a></li>
-                    </ul>
-
-
-                </li>
-
-        
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">DEPARTMENTS</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="../department/mech.html" class="dropdown-item">Mechanical Engineering</a></li>
-                        <li><a href="../department/extc.html" class="dropdown-item">Electronics and Telecom Engineering</a></li>
-                        <li><a href="../department/inst.html" class="dropdown-item">Instrumentation Engineering</a></li>
-                        <li><a href="../department/comp.html" class="dropdown-item">Computer Engineering</a></li>
-                        <li><a href="../department/it.html" class="dropdown-item">Information Technology</a></li>
-                        <li><a href="../department/civil.html" class="dropdown-item">Civil Engineering</a></li>
-                        <li><a href="../department/ash.html" class="dropdown-item">Applied Sciences and Humanities</a></li>
-                    </ul>
-                </li>
-                
-
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">COMMITTEES</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="../cdc.php" class="dropdown-item">CDC</a></li>
-                        <li><a href="../iqac.php" class="dropdown-item">IQAC</a></li>
-                        <li class="dropdown dropdown-submenu dropdown-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">STATUTORY COMMITTEES</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="../comittee_sc_st.php" class="dropdown-item">Committee for SC/ST</a></li>
-
-                          <li><a href="../obc_cell.php" class="dropdown-item">OBC Cell</a></li>
-    
-                  <li><a href="minority_cell.php" class="dropdown-item">Minority Cell</a></li>
-                      <li><a href="../internal_committee.php" class="dropdown-item">Internal Complaint Committee</a></li>
-
-               <li><a href="../grievance_committee.php" class="dropdown-item">Grievance Redressal Committee</a></li>
-         <li><a href="../anti_ragging.php" class="dropdown-item">Anti - ragging Committee</a></li>
-                        </ul>
-                        </li>
-                        <li><a href="../WDC.html" class="dropdown-item">WDC</a></li>
-
-                    </ul>
-                </li>
-
-
-
-
-
-        <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">FACILITIES</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="../facilities/library.pdf" target="test1" class="dropdown-item">Library</a></li>
-                        <li><a href="../facilities/gymkhana.pdf" class="dropdown-item" target="">Sports &amp; Gymkhana</a></li>
-                        <li><a href="../facilities/computer_centre.pdf" class="dropdown-item">Computer Center</a></li>
-                        <li><a href="" class="dropdown-item">Ladies Common Room</a></li>
-                    </ul>
-                </li>
-        
-                
-
-<li class="nav-item dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">STUDENT BODIES</a>
-        <ul class="dropdown-menu">
-
-    <li class="dropdown dropdown-submenu dropdown-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Extra-curricular Activities</a>
-    <ul class="dropdown-menu">
-              <li><a href="../council.html" class="dropdown-item">Students Council</a></li>
-              <li><a href="../sports.html" class="dropdown-item">Sports Committee</a></li>
-               <li><a href="../magazine_committee.html" class="dropdown-item">Magazine Committee</a></li>
-             <li><a href="../udaan.html" class="dropdown-item">Udaan</a></li>
-    </ul>
-    </li><li class="dropdown dropdown-submenu dropdown-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Co-curricular Activities</a>
-    <ul class="dropdown-menu">
-                <li><a href="../ieee.html" class="dropdown-item">IEEE</a></li>
-                 <li><a href="../isa.html" class="dropdown-item">ISA</a></li>
-                <li><a href="../csi.html" class="dropdown-item">CSI</a></li>
-                   <li><a href="../iete.html" class="dropdown-item">IETE</a></li>
-                 <li><a href="../ishare.html" class="dropdown-item">ISHRAE</a></li>
-                 <li><a href="../VMEA.html" class="dropdown-item">VMEA</a></li>
-                  <li><a href="../ETA.html" class="dropdown-item">ETA</a></li>
-                <li><a href="../cesa.html" class="dropdown-item">CESA</a></li>
-                <li><a href="../ITECH.html" class="dropdown-item">ITECH</a></li>
-    </ul>
-
-        </li></ul>
-      </li>
-
-        
-<li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">TRAINING &amp; PLACEMENTS</a>
-                    <ul class="dropdown-menu">
-
-<li class="dropdown dropdown-submenu dropdown-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Training</a>
-<ul class="dropdown-menu">
-<li><a href="https://drive.google.com/file/d/1mGcL4yv3JY_JZv058jVOsJh3Cu_Rq0iK/view?usp=s" target="_blank" class="dropdown-item">Competitive Examination</a></li>
-
-<li><a href="https://drive.google.com/file/d/1mzOFYuI9HL9yAz7Bbky8U8TcavMmhBfW/view?usp=s" target="_blank" class="dropdown-item">Soft skill development</a></li>
-</ul>
-
-</li>
-
-
-<li><a href="../Placements.html" target="_blank" class="dropdown-item">Placements</a></li>
-
-
-
-<li class="dropdown dropdown-submenu dropdown-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Carrier Gidence</a> 
-
-<ul class="dropdown-menu">
-<li><a href="https://drive.google.com/file/d/1OJRjHlMCiTCQVsgJLUZp8GcFeNrcaIJF/view?usp=s" target="_blank" class="dropdown-item">Career counselling</a></li>
-
-<li><a href="https://drive.google.com/file/d/1-JikZIfE1O5aVl5EnHLZKeflhICjCVsl/view?usp=sha" target="_blank" class="dropdown-item">Remedial Coaching</a></li>
-
-<li><a href="https://drive.google.com/file/d/1yrXLgU6yqv5Oc-T5O1HQ94phGRrBa2zY/view?usp=sharin" target="_blank" class="dropdown-item">Language Lab</a></li>
-
-<li><a href="https://drive.google.com/file/d/1oYSAM5vybaOjs6WBUFiHLqKGumhff91F/view?usp=sha" target="_blank" class="dropdown-item">Bridge Courses</a></li>
-
-<li><a href="https://drive.google.com/file/d/1_mALw3qBqIoRGazOi-mLk4NKhEpmoXUE/view?usp=sharin" target="_blank" class="dropdown-item">Yoga and Meditation</a></li>
-
-<li><a href="https://drive.google.com/file/d/106oUm3ShvUZPDphYFbTEqiiepMqe2tKB/view?usp=shar" target="_blank" class="dropdown-item">Personal Counselling</a></li>
-
-</ul>
-
-
-</li>
-
-<li><a href="../E_CELL.html" class="dropdown-item">E-CELL</a></li>
-
-                    </ul>
-
-
-                </li>
-
-
-
-<li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">R &amp; D</a>
-                    <ul class="dropdown-menu">
-                    <li><a href="../ipr.html" target="test1" class="dropdown-item">IPR Cell</a></li>
-<li><a href="https://nptel.ac.in/" target="test1" class="dropdown-item">Swayam-NPTEL</a></li>
-        <li><a href="iit.php" class="dropdown-item" target="">IIT Remote Center</a></li>
-
-                    </ul>
-                </li>
-
-
-
-
-
+        <header>
+            <div class="row  ">
+              <div class="col-md-4 col-sm-12">
+                <a href="../index.html"><img src="../img/vcetlogo.png" class="img-fluid" alt="Responsive image"></a>
+              </div>
+              <div class="col-md-8 col-sm-12">
+                <nav class="navbar navbar-expand-xl navbar-light blue-color text-light">
+                  <div class="navbar-brand d-block d-xl-none">VCET</div>
+                  <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navHeaderCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navHeaderCollapse">
+      
+                    <ul class="nav navbar-nav text-center m-auto">
+                      <!-- <li class="nav-item">
+                      <a href="../index.html" class="nav-link">HOME</a>
+                    </li> -->
                     <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ACTIVITY</a>
-                    <ul class="dropdown-menu">
-<li><a href="../Academic_Cal_Even_2019.pdf" class="dropdown-item">ACADEMIC CALENDER EVEN SEM 2019</a></li>
-                        <li><a href="../staff.php" class="dropdown-item">STAFF ACTIVITY</a></li>
-                        
-
-
-<li class="dropdown dropdown-submenu dropdown-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">STUDENT ACTIVITY</a>
-                                    <ul class="dropdown-menu">
-                                      <a href="../assets/pdf/NAAC/Website_Capability Ennhancement Programs.pdf" targer="test1" class="dropdown-item"><li>Capability Enhancement and Development Activities</li></a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ABOUT</a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="../about/vision.html" class="dropdown-item">Vision Mission </a>
+                          </li>
+                          <li>
+                            <a href="../about/principal.html" class="dropdown-item">Principal's Desk</a>
+                          </li>
+      
+                          <li>
+                            <a href="../about/govern.html" class="dropdown-item">Governing Council</a>
+                          </li>
+                          <li>
+                            <a href="../about/img/org.png" class="dropdown-item">Organizational Structure</a>
+                          </li>
+      
+                          <li>
+                            <a href="../about/admin.html" class="dropdown-item">Administration &amp; other staff</a>
+                          </li>
+      
+                          <li>
+                            <a href="../about/img/codee.pdf" class="dropdown-item" target="test1">Code of Ethics </a>
+                          </li>
+                          <li>
+                            <a href="../about/img/codec.pdf" class="dropdown-item" target="test1">Code of Conduct </a>
+                          </li>
+                          <li>
+                            <a href="../about/img/core.pdf" class="dropdown-item" target="test1">Core Values</a>
+                          </li>
+                          <li>
+                            <a href="../about/strategy.html" class="dropdown-item" target="test1">Strategic Plan</a>
+                          </li>
+                        </ul>
+                      </li>
+      
+                      <li class="nav-item dropdown open">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ADMISSION</a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="../admission/bachelor.html" class="dropdown-item" target="test1">Bachelor of Engineering</a>
+                          </li>
+                          <li>
+                            <a href="../admission/admission.pdf" class="dropdown-item" target="test1">Admission schedule</a>
+                          </li>
+                          <li>
+                            <a href="../admission/doc.pdf" class="dropdown-item" target="test1">FE Fee Structure</a>
+                          </li>
+                          <li>
+                            <a href="../admission/di.pdf" class="dropdown-item" target="test1">Direct SE Fee Structure</a>
+                          </li>
+      
+                          <!-- <li><a href="#" class="dropdown-item" target="test1">Online Fee Portal</a></li> -->
+      
+                          <li>
+                            <a href="../admission/ru.pdf" class="dropdown-item" target="test1">Rules And Regulation</a>
+                          </li>
+                        </ul>
+      
+      
+                      </li>
+      
+      
+                      <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">DEPARTMENTS</a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="mech.html" class="dropdown-item">Mechanical Engineering</a>
+                          </li>
+                          <li>
+                            <a href="extc.html" class="dropdown-item">Electronics and Telecom Engineering</a>
+                          </li>
+                          <li>
+                            <a href="inst.html" class="dropdown-item">Instrumentation Engineering</a>
+                          </li>
+                          <li>
+                            <a href="comp.html" class="dropdown-item">Computer Engineering</a>
+                          </li>
+                          <li>
+                            <a href="it.html" class="dropdown-item">Information Technology</a>
+                          </li>
+                          <li>
+                            <a href="civil.html" class="dropdown-item">Civil Engineering</a>
+                          </li>
+                          <li>
+                            <a href="ash.html" class="dropdown-item">Applied Sciences and Humanities</a>
+                          </li>
+                        </ul>
+                      </li>
+      
+                      <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">COMMITTEES</a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="cdc.php" class="dropdown-item">CDC</a>
+                          </li>
+                          <li>
+                            <a href="iqac.php" class="dropdown-item">IQAC</a>
+                          </li>
+                          <li class="dropdown dropdown-submenu dropdown-item">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">STATUTORY COMMITTEES</a>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="comittee_sc_st.php" class="dropdown-item">Committee for SC/ST</a>
+                              </li>
+      
+                              <li>
+                                <a href="obc_cell.php" class="dropdown-item">OBC Cell</a>
+                              </li>
+      
+                              <li>
+                                <a href="minority_cell.php" class="dropdown-item">Minority Cell</a>
+                              </li>
+                              <li>
+                                <a href="internal_committee.php" class="dropdown-item">Internal Complaint Committee</a>
+                              </li>
+      
+                              <li>
+                                <a href="grievance_committee.php" class="dropdown-item">Grievance Redressal Committee</a>
+                              </li>
+                              <li>
+                                <a href="anti_ragging.php" class="dropdown-item">Anti - ragging Committee</a>
+                              </li>
                             </ul>
-
-</li><li class="dropdown dropdown-submenu dropdown-item"><a href="#" class="dropdown-toggle" data-toggle="dropdown">FEEDBACK</a>
-                                    <ul class="dropdown-menu">
-                                      <a href="../Give_Feedback.php" targer="test1" class="dropdown-item"><li>Give Your Feedback</li></a>
-<a href="../Feedback_Analysis.php" targer="test1" class="dropdown-item"><li>Feedback Analysis</li></a>
+                          </li>
+                          <li>
+                            <a href="WDC.html" class="dropdown-item">WDC</a>
+                          </li>
+      
+                        </ul>
+                      </li>
+      
+      
+                      <!-- <li class="nav-item dropdown open">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">FACILITIES</a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a href="facilities/library.pdf" target="test1" class="dropdown-item">Library</a>
+                        </li>
+                        <li>
+                          <a href="facilities/gymkhana.pdf" class="dropdown-item" target="">Sports &amp; Gymkhana</a>
+                        </li>
+                        <li>
+                          <a href="facilities/computer_centre.pdf" class="dropdown-item">Computer Center</a>
+                        </li>
+                        <li>
+                          <a href="" class="dropdown-item">Ladies Common Room</a>
+                        </li>
+                      </ul>
+                    </li> -->
+      
+      
+      
+                      <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">STUDENT BODIES</a>
+                        <ul class="dropdown-menu">
+      
+                          <li class="dropdown dropdown-submenu dropdown-item">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Extra-curricular Activities</a>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="council.html" class="dropdown-item">Students Council</a>
+                              </li>
+                              <li>
+                                <a href="sports.html" class="dropdown-item">Sports Committee</a>
+                              </li>
+                              <li>
+                                <a href="magazine_committee.html" class="dropdown-item">Magazine Committee</a>
+                              </li>
+                              <li>
+                                <a href="udaan.html" class="dropdown-item">Udaan</a>
+                              </li>
                             </ul>
-    
-                    </li></ul>
-                    </li>
-
-
-
-<li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ALUMNI</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="../Alumni.html" target="test1" class="dropdown-item">ALUMNI ASSOCIATION</a></li>
+                          </li>
+                          <li class="dropdown dropdown-submenu dropdown-item">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Co-curricular Activities</a>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <a href="ieee.html" class="dropdown-item">IEEE</a>
+                              </li>
+                              <li>
+                                <a href="isa.html" class="dropdown-item">ISA</a>
+                              </li>
+                              <li>
+                                <a href="csi.html" class="dropdown-item">CSI</a>
+                              </li>
+                              <li>
+                                <a href="iete.html" class="dropdown-item">IETE</a>
+                              </li>
+                              <li>
+                                <a href="ishare.html" class="dropdown-item">ISHRAE</a>
+                              </li>
+                              <li>
+                                <a href="VMEA.html" class="dropdown-item">VMEA</a>
+                              </li>
+                              <li>
+                                <a href="ETA.html" class="dropdown-item">ETA</a>
+                              </li>
+                              <li>
+                                <a href="cesa.html" class="dropdown-item">CESA</a>
+                              </li>
+                              <li>
+                                <a href="ITECH.html" class="dropdown-item">ITECH</a>
+                              </li>
+                            </ul>
+      
+                          </li>
+                        </ul>
+                      </li>
+      
+      
+                      <!-- <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">TRAINING &amp; PLACEMENTS</a>
+                      <ul class="dropdown-menu">
+      
+                        <li class="dropdown dropdown-submenu dropdown-item">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training</a>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a href="https://drive.google.com/file/d/1mGcL4yv3JY_JZv058jVOsJh3Cu_Rq0iK/view?usp=s" target="_blank" class="dropdown-item">Competitive Examination</a>
+                            </li>
+      
+                            <li>
+                              <a href="https://drive.google.com/file/d/1mzOFYuI9HL9yAz7Bbky8U8TcavMmhBfW/view?usp=s" target="_blank" class="dropdown-item">Soft skill development</a>
+                            </li>
+                          </ul>
+      
+                        </li>
+      
+      
+                        <li>
+                          <a href="Placements.html" target="_blank" class="dropdown-item">Placements</a>
+                        </li>
+      
+      
+                        <li class="dropdown dropdown-submenu dropdown-item">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Carrier Gidence</a>
+      
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a href="https://drive.google.com/file/d/1OJRjHlMCiTCQVsgJLUZp8GcFeNrcaIJF/view?usp=s" target="_blank" class="dropdown-item">Career counselling</a>
+                            </li>
+      
+                            <li>
+                              <a href="https://drive.google.com/file/d/1-JikZIfE1O5aVl5EnHLZKeflhICjCVsl/view?usp=sha" target="_blank" class="dropdown-item">Remedial Coaching</a>
+                            </li>
+      
+                            <li>
+                              <a href="https://drive.google.com/file/d/1yrXLgU6yqv5Oc-T5O1HQ94phGRrBa2zY/view?usp=sharin" target="_blank" class="dropdown-item">Language Lab</a>
+                            </li>
+      
+                            <li>
+                              <a href="https://drive.google.com/file/d/1oYSAM5vybaOjs6WBUFiHLqKGumhff91F/view?usp=sha" target="_blank" class="dropdown-item">Bridge Courses</a>
+                            </li>
+      
+                            <li>
+                              <a href="https://drive.google.com/file/d/1_mALw3qBqIoRGazOi-mLk4NKhEpmoXUE/view?usp=sharin" target="_blank" class="dropdown-item">Yoga and Meditation</a>
+                            </li>
+      
+                            <li>
+                              <a href="https://drive.google.com/file/d/106oUm3ShvUZPDphYFbTEqiiepMqe2tKB/view?usp=shar" target="_blank" class="dropdown-item">Personal Counselling</a>
+                            </li>
+      
+                          </ul>
+      
+      
+                        </li>
+      
+                        <li>
+                          <a href="E_CELL.html" target="_blank" class="dropdown-item">E-CELL</a>
+                        </li>
+                      </ul>
+                    </li> -->
+      
+                      <!-- <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">R &amp; D</a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a href="ipr.html" target="test1" class="dropdown-item">IPR Cell</a>
+                        </li>
+                        <li>
+                          <a href="https://nptel.ac.in/" target="test1" class="dropdown-item">Swayam-NPTEL</a>
+                        </li>
+                        <li>
+                          <a href="iit.php" class="dropdown-item" target="">IIT Remote Center</a>
+                        </li>
+      
+                      </ul>
+                    </li> -->
+      
+      
+      
+      
+                      <!-- 
+                    <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ACTIVITY</a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a href="Academic_Cal_Even_2019.pdf" class="dropdown-item">ACADEMIC CALENDER EVEN SEM 2019</a>
+                        </li>
+                        <li>
+                          <a href="staff.php" class="dropdown-item">STAFF ACTIVITY</a>
+                        </li>
+      
+      
+      
+                        <li class="dropdown dropdown-submenu dropdown-item">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">STUDENT ACTIVITY</a>
+                          <ul class="dropdown-menu">
+                            <a href="assets/pdf/NAAC/Website_Capability Ennhancement Programs.pdf" targer="test1" class="dropdown-item">
+                              <li>Capability Enhancement and Development Activities</li>
+                            </a>
+                          </ul>
+                        </li>
+                        <li class="dropdown dropdown-submenu dropdown-item">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">FEEDBACK</a>
+                          <ul class="dropdown-menu">
+                            <a href="Give_Feedback.php" targer="test1" class="dropdown-item">
+                              <li>Give Your Feedback</li>
+                            </a>
+                            <a href="Feedback_Analysis.php" targer="test1" class="dropdown-item">
+                              <li>Feedback Analysis</li>
+                            </a>
+                          </ul>
+      
+                        </li>
+                      </ul>
+                    </li> -->
+      
+      
+      
+                      <!-- <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ALUMNI</a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a href="Alumni.html" target="test1" class="dropdown-item">ALUMNI ASSOCIATION</a>
+                        </li>
+                      </ul>
+                    </li> -->
+      
+      
+                      <!-- <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle">NAAC</a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a href="#" class="dropdown-item">SSR</a>
+                        </li>
+                      </ul>
+                    </li> -->
                     </ul>
-                </li>
-
-
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle">NAAC</a>
-                    <ul class="dropdown-menu">
-    <!--	<li><a href="#" class="dropdown-item">IIQA</a></li> -->
-        <li><a href="#" class="dropdown-item">SSR</a></li>
-                    </ul>
-                </li>
-
-
-            </ul>		
-                
-
-               
-            </div>	
-        </nav>
-    </div>
-</div>
-    
+                  </div>
+                </nav>
+              </div>
+            </div>
+      
+          </header>
 <div class="container">
     
     <div class="row">
      <div class="col-md-12 xs-6">
-       <h2 class="text-center bg-dark text-white heading" style="margin-top: 12px;">INFORMATION TECHNOLOGY</h2>
+       <h2 class="text-center blue-color text-white heading" style="margin-top: 12px;">INFORMATION TECHNOLOGY</h2>
      </div>
    </div>
 <div class="container content bg-light">
 <div class="row">
-<div class="col-md-9 text-dark">
+<div class="col-md-9 blue-color">
     <br>
                 <p>The Department of Information Technology (IT) aims at developing technical and experimental skills in students along with logical thinking so as to prepare them for competent, responsible and rewarding careers in IT profession. We strive to achieve the aim with young, dynamic and highly qualified faculty members, state of art infrastructure and Industry-Institution Interaction.<br>The department has laboratories which are well equipped with latest configuration machines, high speed internet, Wi-Fi and legal licensed software. Modern aids such as LCD, Educational CDs make classroom teaching more interesting.<br>We encourage extra-curricular activities as they help in developing the student’s personality which ultimately enhances her future. It is our constant endeavor to shape personalities who will contribute positively to the world around them</p>
 </div>
 <div class="col-md-3">
 <img src="../img/department/it/ashish.jpg" style="border-style: groove; border-color: #a2a276; margin-top: 7%;">
     <br>
-    <p style="font-size: 13px;" class="text-dark"><em><b>DR. ASHISH VANMALI <br> ASSOCIATE PROFESSOR &amp; HEAD OF DEPARTMENT<br></b></em></p>
+    <p style="font-size: 13px;" class="blue-color"><em><b>DR. ASHISH VANMALI <br> ASSOCIATE PROFESSOR &amp; HEAD OF DEPARTMENT<br></b></em></p>
 </div>
 </div>
 </div>
@@ -426,7 +551,7 @@ text-align: center;
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="headingOne1">
+<div class="card-header blue-color" role="tab" id="headingOne1">
   <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
     <h5 class="mb-0 text-white">
       VISION AND MISSION <i class="fa fa-angle-down rotate-icon"></i>
@@ -461,7 +586,7 @@ text-align: center;
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="headingpso">
+<div class="card-header blue-color" role="tab" id="headingpso">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapsepso" aria-expanded="true" aria-controls="collapsepso">
     <h5 class="mb-0 text-white">
      POs,PEOs,Pos  <i class="fa fa-angle-down rotate-icon"></i>
@@ -516,7 +641,7 @@ text-align: center;
 
 <div class="card">
 
-<div class="card-header bg-dark" role="tab" id="headingswoc">
+<div class="card-header blue-color" role="tab" id="headingswoc">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseswoc" aria-expanded="true" aria-controls="collapseswoc">
     <h5 class="mb-0 text-white">
      Department SWOC Analysis  <i class="fa fa-angle-down rotate-icon"></i>
@@ -579,7 +704,7 @@ text-align: center;
 <div class="card  ">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="headingThree3">
+<div class="card-header blue-color" role="tab" id="headingThree3">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
     <h5 class="mb-0 text-white">
      FACULTY INFORMATION  <i class="fa fa-angle-down rotate-icon"></i>
@@ -590,7 +715,7 @@ text-align: center;
 <!-- Card body -->
 <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3" data-parent="#accordionEx">
   <div class="card-body">
-        <table class="table  accordion md-accordion table-bordered table-dark">
+        <table class="table  accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Name of Teaching Staff</th>
@@ -675,7 +800,7 @@ Best Paper Award at 17 th Esri India User Conference 2017, New Delhi.
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="heading2">
+<div class="card-header blue-color" role="tab" id="heading2">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionE" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
     <h5 class="mb-0 text-white">
       PROF. MADHAVI WAGHMARE<i class="fa fa-angle-down rotate-icon"></i>
@@ -686,7 +811,7 @@ Best Paper Award at 17 th Esri India User Conference 2017, New Delhi.
 <!-- Card body -->
 <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2" data-parent="#accordionE">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Name of Teaching Staff</th>
@@ -750,7 +875,7 @@ Best Paper Award at 17 th Esri India User Conference 2017, New Delhi.
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="heading21">
+<div class="card-header blue-color" role="tab" id="heading21">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionE" href="#collapse21" aria-expanded="false" aria-controls="collapse21">
     <h5 class="mb-0 text-white">
       PROF. CHANDAN KOLVANKAR<i class="fa fa-angle-down rotate-icon"></i>
@@ -761,7 +886,7 @@ Best Paper Award at 17 th Esri India User Conference 2017, New Delhi.
 <!-- Card body -->
 <div id="collapse21" class="collapse" role="tabpanel" aria-labelledby="heading21" data-parent="#accordionE">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Name of Teaching Staff</th>
@@ -814,7 +939,7 @@ Best Paper Award at 17 th Esri India User Conference 2017, New Delhi.
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="heading3">
+<div class="card-header blue-color" role="tab" id="heading3">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionE" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
     <h5 class="mb-0 text-white">
       PROF.  ARCHANA EKBOTE<i class="fa fa-angle-down rotate-icon"></i>
@@ -825,7 +950,7 @@ Best Paper Award at 17 th Esri India User Conference 2017, New Delhi.
 <!-- Card body -->
 <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3" data-parent="#accordionE">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Name of Teaching Staff</th>
@@ -885,7 +1010,7 @@ IETE Life membership</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="heading4">
+<div class="card-header blue-color" role="tab" id="heading4">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionE" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
     <h5 class="mb-0 text-white">
        PROF.  VAISHALI SHIRSATH<i class="fa fa-angle-down rotate-icon"></i>
@@ -896,7 +1021,7 @@ IETE Life membership</td>
 <!-- Card body -->
 <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4" data-parent="#accordionE">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Name of Teaching Staff</th>
@@ -970,7 +1095,7 @@ IETE Life membership</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="heading5">
+<div class="card-header blue-color" role="tab" id="heading5">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionE" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
     <h5 class="mb-0 text-white">
        PROF.  SAINATH  PATIL<i class="fa fa-angle-down rotate-icon"></i>
@@ -981,7 +1106,7 @@ IETE Life membership</td>
 <!-- Card body -->
 <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordionE">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Name of Teaching Staff</th>
@@ -1043,7 +1168,7 @@ IETE Life membership</td>
 <div class="card">
 
     <!-- Card header -->
-    <div class="card-header bg-dark" role="tab" id="heading8">
+    <div class="card-header blue-color" role="tab" id="heading8">
       <a class="collapsed" data-toggle="collapse" data-parent="#accordionE" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
         <h5 class="mb-0 text-white">
             PROF.  ANAGHA PATIL<i class="fa fa-angle-down rotate-icon"></i>
@@ -1054,7 +1179,7 @@ IETE Life membership</td>
     <!-- Card body -->
     <div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading8" data-parent="#accordionE">
       <div class="card-body">
-       <table class="table accordion md-accordion table-bordered table-dark">
+       <table class="table accordion md-accordion table-bordered blue-color">
             <tbody>
                 <tr>
                       <th scope="row">Name of Teaching Staff</th>
@@ -1118,7 +1243,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="heading6">
+<div class="card-header blue-color" role="tab" id="heading6">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionE" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
     <h5 class="mb-0 text-white">
        PROF.  BHARATI GONDHALEKAR<i class="fa fa-angle-down rotate-icon"></i>
@@ -1129,7 +1254,7 @@ distinction</td>
 <!-- Card body -->
 <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6" data-parent="#accordionE">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Name of Teaching Staff</th>
@@ -1195,7 +1320,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="heading1">
+<div class="card-header blue-color" role="tab" id="heading1">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionE" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
     <h5 class="mb-0 text-white">
        PROF.  YOGESH PINGLE<i class="fa fa-angle-down rotate-icon"></i>
@@ -1206,7 +1331,7 @@ distinction</td>
 <!-- Card body -->
 <div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordionE">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Name of Teaching Staff</th>
@@ -1316,7 +1441,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="heading7">
+<div class="card-header blue-color" role="tab" id="heading7">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionE" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
     <h5 class="mb-0 text-white"> PROF.  MARIYAM J. K.<i class="fa fa-angle-down rotate-icon"></i>
     </h5>
@@ -1326,7 +1451,7 @@ distinction</td>
 <!-- Card body -->
 <div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="heading7" data-parent="#accordionE">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Name of Teaching Staff</th>
@@ -1385,7 +1510,7 @@ distinction</td>
   <div class="card">
 
     <!-- Card header -->
-    <div class="card-header bg-dark" role="tab" id="heading9">
+    <div class="card-header blue-color" role="tab" id="heading9">
       <a class="collapsed" data-toggle="collapse" data-parent="#accordionE" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
         <h5 class="mb-0 text-white">
            PROF. SWATI SAIGAONKAR<i class="fa fa-angle-down rotate-icon"></i>
@@ -1396,7 +1521,7 @@ distinction</td>
     <!-- Card body -->
     <div id="collapse9" class="collapse" role="tabpanel" aria-labelledby="heading9" data-parent="#accordionE">
       <div class="card-body">
-       <table class="table accordion md-accordion table-bordered table-dark">
+       <table class="table accordion md-accordion table-bordered blue-color">
             <tbody>
                 <tr>
                       <th scope="row">Name of Teaching Staff</th>
@@ -1464,7 +1589,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark " role="tab" id="headingFour4">
+<div class="card-header blue-color " role="tab" id="headingFour4">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseFour4" aria-expanded="false" aria-controls="collapseFour4">
     <h5 class="mb-0 text-white">INFRASTRUCTURE
        <i class="fa fa-angle-down rotate-icon"></i>
@@ -1482,7 +1607,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="headingOne">
+<div class="card-header blue-color" role="tab" id="headingOne">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionI" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
     <h5 class="mb-0 text-white">
        NWC LAB<i class="fa fa-angle-down rotate-icon"></i>
@@ -1493,8 +1618,8 @@ distinction</td>
 <!-- Card body -->
 <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionI">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
-        </table><table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
+        </table><table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Laboratory Name</th>
@@ -1535,7 +1660,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="headingTwo">
+<div class="card-header blue-color" role="tab" id="headingTwo">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionI" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
     <h5 class="mb-0 text-white">
        SEM LAB<i class="fa fa-angle-down rotate-icon"></i>
@@ -1546,8 +1671,8 @@ distinction</td>
 <!-- Card body -->
 <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionI">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
-        </table><table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
+        </table><table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Laboratory Name</th>
@@ -1587,7 +1712,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="headingThree">
+<div class="card-header blue-color" role="tab" id="headingThree">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionI" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
     <h5 class="mb-0 text-white">
        DMD LAB<i class="fa fa-angle-down rotate-icon"></i>
@@ -1598,8 +1723,8 @@ distinction</td>
 <!-- Card body -->
 <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionI">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
-        </table><table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
+        </table><table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Laboratory Name</th>
@@ -1643,7 +1768,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="headingFour">
+<div class="card-header blue-color" role="tab" id="headingFour">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionI" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
     <h5 class="mb-0 text-white">
        MSP LAB<i class="fa fa-angle-down rotate-icon"></i>
@@ -1654,8 +1779,8 @@ distinction</td>
 <!-- Card body -->
 <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordionI">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
-        </table><table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
+        </table><table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Laboratory Name</th>
@@ -1696,7 +1821,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="headingFive">
+<div class="card-header blue-color" role="tab" id="headingFive">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionI" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
     <h5 class="mb-0 text-white">
        PROGRAMMING LAB<i class="fa fa-angle-down rotate-icon"></i>
@@ -1707,8 +1832,8 @@ distinction</td>
 <!-- Card body -->
 <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordionI">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
-        </table><table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
+        </table><table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Laboratory Name</th>
@@ -1751,7 +1876,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="headingSix">
+<div class="card-header blue-color" role="tab" id="headingSix">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionI" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
     <h5 class="mb-0 text-white">
        IOT LAB<i class="fa fa-angle-down rotate-icon"></i>
@@ -1762,8 +1887,8 @@ distinction</td>
 <!-- Card body -->
 <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordionI">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
-        </table><table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
+        </table><table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Laboratory Name</th>
@@ -1803,7 +1928,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="headingSeven">
+<div class="card-header blue-color" role="tab" id="headingSeven">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionI" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
     <h5 class="mb-0 text-white">
        PROJECT LAB<i class="fa fa-angle-down rotate-icon"></i>
@@ -1814,8 +1939,8 @@ distinction</td>
 <!-- Card body -->
 <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven" data-parent="#accordionI">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
-        </table><table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
+        </table><table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Laboratory Name</th>
@@ -1856,7 +1981,7 @@ distinction</td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark" role="tab" id="headingEight">
+<div class="card-header blue-color" role="tab" id="headingEight">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionI" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
     <h5 class="mb-0 text-white">
        ELECTRONICS LAB<i class="fa fa-angle-down rotate-icon"></i>
@@ -1867,8 +1992,8 @@ distinction</td>
 <!-- Card body -->
 <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight" data-parent="#accordionI">
   <div class="card-body">
-   <table class="table accordion md-accordion table-bordered table-dark">
-        </table><table class="table accordion md-accordion table-bordered table-dark">
+   <table class="table accordion md-accordion table-bordered blue-color">
+        </table><table class="table accordion md-accordion table-bordered blue-color">
         <tbody>
             <tr>
                   <th scope="row">Laboratory Name</th>
@@ -1923,7 +2048,7 @@ CRO, </td>
   <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark " role="tab" id="headingThree5">
+<div class="card-header blue-color " role="tab" id="headingThree5">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5">
     <h5 class="mb-0 text-white">TOPPERS
        <i class="fa fa-angle-down rotate-icon"></i>
@@ -1934,7 +2059,7 @@ CRO, </td>
 <!-- Card body -->
 <div id="collapseThree5" class="collapse" role="tabpanel" aria-labelledby="headingThree5" data-parent="#accordionEx">
   <div class="card-body">
-      <table class="table table-bordered table-dark">
+      <table class="table table-bordered blue-color">
 <thead>
 <tr>
   <th scope="col"></th>
@@ -1992,7 +2117,7 @@ CRO, </td>
   <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark " role="tab" id="headingThree3">
+<div class="card-header blue-color " role="tab" id="headingThree3">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#syllabus" aria-expanded="false" aria-controls="collapseThree3">
     <h5 class="mb-0 text-white">SYLLABUS
        <i class="fa fa-angle-down rotate-icon"></i>
@@ -2014,7 +2139,7 @@ CRO, </td>
 <div class="card">
 
 <!-- Card header -->
-<div class="card-header bg-dark " role="tab" id="headingThree30">
+<div class="card-header blue-color " role="tab" id="headingThree30">
   <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#co" aria-expanded="false" aria-controls="collapseThree30">
     <h5 class="mb-0 text-white">COURSE OUTCOMES
        <i class="fa fa-angle-down rotate-icon"></i>
@@ -2036,133 +2161,203 @@ CRO, </td>
     <br>
 
 &#65279;
-<footer class="page-footer font-small mdb-color bg-dark pt-4 foot">
-
-<!-- Footer Links -->
-<div class="container text-center text-md-left">
-
-  <!-- Footer links -->
-  <div class="row text-center text-md-left mt-3 pb-3">
-
-    <hr class="w-100 clearfix d-md-none">
-
-   <div class="container col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"> 
-    <h6 class="text-uppercase mb-4 font-weight-bold text-white ">MENU</h6>   
-    <p>     <a href="index.html">Home</a>   </p>
-         <p>     <a href="../assets/pdf/man.pdf" class="nav-link" target="test1">MANDITORY DISCLOSURE</a></p>
-
-   <p>     <a href="../divyangjan.php" class="nav-link" target="test1">Helpline for Divyangjan</a></p>
-
-<p>     <a href="../German_Club.html" class="nav-link" target="test1">German Language Club</a></p>
-
-<p>     <a href="../Grievance.php" class="nav-link" target="test1">Online Grievance Form</a></p>
-</div> 
-    <!-- Grid column -->
-
-    <hr class="w-100 clearfix d-md-none">
-
-   <div class="container col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"> 
-    <h6 class="text-uppercase mb-4 font-weight-bold text-white ">EVENTS</h6>   
-    <p>     <a href="https://vcet.edu.in/Zeal%202018%20website/index.html" target="test1">ZEAL</a>   </p>
-    <p>     <a href="http://vcetavahan.com/" target="test1">AVAHAN</a>   </p>   
-    <p>     <a href="../ethanracing/index.html" target="test1">ETHAN</a>   </p>   
-    <p>     <a href="../VNPS18/index.html" target="test1">VNPS</a>   </p> 
+<div class="row">
+    <!-- <div class="col-md-4 col-sm-12  ">
+      <div class="card">
+        <div class="card-header text-center">
+          <p>
+            Address</p>
+        </div>
+        <div class="card-body">
+          <p>K.T Marg,</p>
+          <p>Vasai Road (W)</p>,
+          <p>Dist-Palghar</p>
+          <p>Pincode : 401202</p>
 
 
-
-
-    <h6 class="text-uppercase mb-4 font-weight-bold text-white ">USEFUl LINKS</h6>   
-    <p>     <a href="http://mu.ac.in/portal/" target="test1">Mumbai University</a>   </p>
-    <p>     <a href="https://www.aicte-india.org/" target="test1">AICTE</a>   </p>   
-    <p>     <a href="http://www.dtemaharashtra.gov.in/index.html" target="test1">DTE</a>   </p>   
-
-
-
-
-</div> 
-
-    <hr class="w-100 clearfix d-md-none">
-
-    <div class="container col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 text-white">
-      <h6 class="text-uppercase mb-4 font-weight-bold">CONTACTS</h6>
-      <p>
-        </p><p class="text-white">Address:<br>K.T Marg,<br>Vasai Road (W),<br>Dist-Palghar<br>Pincode : 401202</p>
-      <p></p>
-      <p>
-        </p><p class="text-white">Fax:  0250-2339486</p>
-      <p></p>
-    </div>
-    <!-- Grid column -->
-    <hr class="w-100 clearfix d-md-none">
-
-    <!-- Grid column -->
-    <div class="container col-md-4 col-lg-3 col-xl-2 mx-auto mt-3 text-white ">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15054.639964013133!2d72.8287336!3d19.3838696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd1a4ca919d6a613!2sVidyavardhini's+College+of+Engineering+and+Technology!5e0!3m2!1sen!2sin!4v1539454748675" size="100%" wwidth="420" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-      
-    </div>
-    <!-- Grid column -->
-
-  </div>
-  <!-- Footer links -->
-
-  <hr>
-
-  <!-- Grid row -->
-  <div class="row d-flex align-items-center">
-
-    <!-- Grid column -->
-    <div class="col-md-7 col-lg-8">
-
-      <!--Copyright-->
-      <p class="text-center text-md-left text-white">© 2018 Copyright:
-        <a href="../webteam.html" target="test1">
-          <strong>WEBTEAM - VCET</strong>
-        </a>
-      </p>
-
-    </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-md-5 col-lg-4 ml-lg-8">
-
-      <!-- Social buttons -->
-      <div class="text-center text-md-right text-white">
-        <ul class="list-unstyled list-inline">
-          <li class="list-inline-item">
-            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-              <i class="fa fa-2x fa-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-              <i class="fa fa-2x fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-              <i class="fa fa-2x fa-google-plus"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-              <i class="fa fa-2x fa-linkedin"></i>
-            </a>
-          </li>
-        </ul>
+          <p>
+            <b>Phone: </b>0250-2338234(6 lines)</p>
+          <p>
+            <b>Fax: </b>0250-2339486</p>
+          <p>
+            <b>Email:</b>vcet_inbox@vcet.edu.in</p>
+        </div>
       </div>
 
+    </div> -->
+
+    <div class="col-md-4 col-sm-12  ">
+      <!-- <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Example select</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Example multiple select</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form> -->
+      <!-- <form style="height:400px;border:solid;border-width:1px;padding:15px;text-align:center;">
+        <h5>Please Fill Out This Form</h5>
+        <br>
+        <div class="input-field ">
+          <input type="text " id="name " placeholder="name">
+          <br>
+        </div>
+        <br>
+        <div class="input-field ">
+          <input type="email " id="email " placeholder="email">
+          <br>
+        </div>
+        <br>
+        <div class="input-field ">
+          <input type="text " id="phone " placeholder="Phone">
+          <br>
+        </div>
+        <br>
+        <div class="input-field ">
+          <textarea class="materialize-textarea " style="width:200px;" id="message " placeholder="Enter your message"></textarea>
+        </div>
+        <br>
+        <input type="submit " style="width:200px;height:50px;border:solid;border-width:2px;" value="Submit " class="btn ">
+      </form> -->
+
     </div>
-    <!-- Grid column -->
-
+    <div class="col-md-4 col-sm-12  ">
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15054.639964013133!2d72.8287336!3d19.3838696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd1a4ca919d6a613!2sVidyavardhini's+College+of+Engineering+and+Technology!5e0!3m2!1sen!2sin!4v1539454748675"
+        size="100%" wwidth="100%" height="100%" frameborder="0" style="border:0" allowfullscreen=""></iframe> -->
+      <!-- <div id="map"></div>
+    <script> 
+      function initMap() { 
+        var test= {lat: -25.363, lng: 131.044}; 
+        var map = new google.maps.Map(document.getElementById('map'), { 
+          zoom: 4, 
+          center: test 
+        }); 
+        var marker = new google.maps.Marker({ 
+          position: test, 
+          map: map 
+        }); 
+      } 
+    </script> 
+    <script async defer 
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"> 
+    </script> 
+ -->
+    </div>
   </div>
-  <!-- Grid row -->
+  <!-- Contact -->
+</main>
+<br>
+<div>
+  <div class="row">
+    <div class="col-md-4 col-sm-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title text-center">
+            <b>Contact</b>
+          </div>
+          <div class="card-text">
+            <b>Address:</b> K.T Marg,
+            <br/> Vasai Road (W),
+            <br/> Dist-Palghar,
+            <br/> Pincode : 401202,
+            <br/>
+            <b>Phone:</b> 0250-2338234(6 lines)
+            <br/>
+            <b>Fax:</b> 0250-2339486
+            <br/>
+            <b>Email:</b>vcet_inbox@vcet.edu.in
 
-</div>
-<!-- Footer Links -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <table class="table blue-color table-bordered  text-center">
+        <thead>
+          <!-- <th>HOME</th> -->
+          <th>EVENTS</th>
+          <th>USEFUL LINKS</th>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- <td>
+              <a href="Grievance.php" class="nav-link" target="test1">Online Grievance Form</a>
+            </td> -->
+            <td>
+              <a href="https://vcet.edu.in/Zeal%202018%20website/index.html" target="test1">ZEAL</a>
+            </td>
+            <td>
+              <a href="http://mu.ac.in/portal/" target="test1">Mumbai University</a>
+            </td>
+          </tr>
+          <tr>
+            <!-- <td>
+              <a href="../assets/pdf/man.pdf" class="nav-link" target="test1">MANDITORY DISCLOSURE</a>
+            </td> -->
+            <td>
+              <a href="http://vcetavahan.com/">AVAHAN</a>
+            </td>
+            <td>
+              <a href="https://www.aicte-india.org/" target="test1">AICTE</a>
+            </td>
+          </tr>
+          <tr>
+            <!-- <td>
+              <a href="https://www.aicte-india.org/feedback/index.php" class="nav-link" target="test1">AICTE FeedBack</a>
+            </td> -->
+            <td>
+              <a href="ethanracing/index.html">ETHAN</a>
+            </td>
+            <td>
+              <a href="http://www.dtemaharashtra.gov.in/index.html" target="test1">DTE</a>
+            </td>
+          </tr>
+          <tr>
+            <!-- <td>
+              <a href="assets/pdf/FEE CALAULATION 19-20.pdf" class="nav-link" target="test1">Fee Calculation for 19-20</a>
+            </td> -->
+            <td>
+              <a href="VNPS18/index.html">VNPS</a>
+            </td>
+            <td>
+              <a href="assets/pdf/NOTICES/Career@VCET.pdf" target="test1">Career@VCET</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15054.639964013133!2d72.8287336!3d19.3838696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd1a4ca919d6a613!2sVidyavardhini's+College+of+Engineering+and+Technology!5e0!3m2!1sen!2sin!4v1539454748675"
+        size="100%" width="100%" height="245px" allowfullscreen="true"></iframe>
+    </div>
+  </div>
+  <br>
 
-</footer>
-
+  <footer class="text-center blue-color text-light">
+    <p>&COPY;2018 Vidyavardhini's College of Engineering and Technology | All Rights Reserved</p>
+  </footer></div>
       <script src="https://vcet.edu.in/assets/js/jquery.min.js"></script>
 <script src="https://vcet.edu.in/assets/js/popper.min.js"></script>
 <script src="https://vcet.edu.in/assets/js/bootstrap.min.js"></script>
