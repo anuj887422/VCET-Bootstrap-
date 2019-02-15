@@ -3,6 +3,8 @@ index,body{
   position: relative;
   min-height: 100%;
   top:0px;
+  /* color: white; */
+  background-image: url("./img/pattern.jpg");
 }
 .carousal-item{
   width: 100%;
@@ -19,15 +21,22 @@ index,body{
   right: 20px; 
 }
 .navbar-nav > li > a {
-  line-height: 55px;
+  line-height: 83px;
 }
 .blue-color{
-  background-color: #0085c3;
+  background-color: #2785fd;
 }
 .nav.navbar-nav li a {
   color: white;
 }
 .navbar-expand-xl .navbar-nav .dropdown-menu{
-  background-color: #0085c3;
+  background-color: #2785fd;
   
+}
+.container{
+  background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
 }
